@@ -789,30 +789,6 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 });
 
 client.on('message', message => {
-if(message.author.bot) return;
-if (message.content === 'السلام عليكم') {
-message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481475996122611712/images.jpg");
- }
-});
-
-
-client.on('message', message => {
-if(message.author.bot) return;
-if (message.content === 'حشيش') {
-message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481474963925106708/images.jpg");
-}
-});
-
-
-
-client.on('message', message => {
-if(message.author.bot) return;
-if (message.content === 'باك') {
- message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481473773959381021/download.png");
- }
- });
-
-client.on('message', message => {
     if (message.content.startsWith("!avatar")) {
         var mentionned = message.mentions.users.first();
     var x5bzm;
